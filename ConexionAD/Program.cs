@@ -24,7 +24,7 @@ namespace ConexionAD
                 pass = Console.ReadLine();
                 Console.Clear();
 
-                if (ValidateCredentials(user, pass, "ARTHA.local") == true)
+                if (Credenciales(user, pass, "ARTHA.local") == true)
                 {
                     Console.WriteLine("Autenticacion exitosa");
                 }
@@ -38,20 +38,20 @@ namespace ConexionAD
         }
 
         private const int ERROR_LOGON_FAILURE = 0x31;
-        private static bool ValidateCredentials(string username, string password, string domain)
+        private static bool Credenciales(string user, string pass, string dominio)
         {
-            NetworkCredential credentials = new NetworkCredential(username, password, domain);
+            NetworkCredential Credencial = new NetworkCredential(user, pass, dominio);
 
-            LdapDirectoryIdentifier id = new LdapDirectoryIdentifier(domain);
+            LdapDirectoryIdentifier id = new LdapDirectoryIdentifier(dominio);
 
-            using (LdapConnection connection = new LdapConnection(id, credentials, AuthType.Kerberos))
+            using (LdapConnection conexion = new LdapConnection(id, Credencial, AuthType.Kerberos))
             {
-                connection.SessionOptions.Sealing = true;
-                connection.SessionOptions.Signing = true;
+                conexion.SessionOptions.Sealing = true;
+                conexion.SessionOptions.Signing = true;
 
                 try
                 {
-                    connection.Bind();
+                    conexion.Bind();
                 }
                 catch (LdapException lEx)
                 {

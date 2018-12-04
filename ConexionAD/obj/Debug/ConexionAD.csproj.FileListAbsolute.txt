@@ -5,3 +5,9 @@ C:\Users\Solution Factory\source\repos\ConexionAD\ConexionAD\obj\Debug\ConexionA
 C:\Users\Solution Factory\source\repos\ConexionAD\ConexionAD\obj\Debug\ConexionAD.csproj.CoreCompileInputs.cache
 C:\Users\Solution Factory\source\repos\ConexionAD\ConexionAD\obj\Debug\ConexionAD.exe
 C:\Users\Solution Factory\source\repos\ConexionAD\ConexionAD\obj\Debug\ConexionAD.pdb
+D:\Documents\GitHub\ConexionAD\ConexionAD\obj\Debug\ConexionAD.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\ConexionAD\ConexionAD\obj\Debug\ConexionAD.exe
+D:\Documents\GitHub\ConexionAD\ConexionAD\obj\Debug\ConexionAD.pdb
+D:\Documents\GitHub\ConexionAD\ConexionAD\bin\Debug\ConexionAD.exe.config
+D:\Documents\GitHub\ConexionAD\ConexionAD\bin\Debug\ConexionAD.exe
+D:\Documents\GitHub\ConexionAD\ConexionAD\bin\Debug\ConexionAD.pdb
