@@ -1,0 +1,7 @@
+C:\Users\Solution Factory\source\repos\ConexionAD\ConexionAD\bin\Debug\ConexionAD.exe.config
+C:\Users\Solution Factory\source\repos\ConexionAD\ConexionAD\bin\Debug\ConexionAD.exe
+C:\Users\Solution Factory\source\repos\ConexionAD\ConexionAD\bin\Debug\ConexionAD.pdb
+C:\Users\Solution Factory\source\repos\ConexionAD\ConexionAD\obj\Debug\ConexionAD.csprojAssemblyReference.cache
+C:\Users\Solution Factory\source\repos\ConexionAD\ConexionAD\obj\Debug\ConexionAD.csproj.CoreCompileInputs.cache
+C:\Users\Solution Factory\source\repos\ConexionAD\ConexionAD\obj\Debug\ConexionAD.exe
+C:\Users\Solution Factory\source\repos\ConexionAD\ConexionAD\obj\Debug\ConexionAD.pdb
